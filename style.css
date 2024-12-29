@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f4f8; /* Light blue-gray background */
+}
+
+header {
+    background: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #005BB5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px 10%;
+    margin-bottom: 20px;
+    background-color: #e3e9f2; /* Soft grayish-blue for sections */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004e98; /* Darker blue for headings */
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #dbe4ef; /* Light blue-gray for cards */
+    padding: 15px;
+    border: 1px solid #a1b5cf; /* Muted blue border */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #004e98; /* Matching heading color for consistency */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333; /* Neutral text color */
+}
+
+footer {
+    background: #004e98; /* Dark blue for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #e3e9f2; /* Soft grayish-blue for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
